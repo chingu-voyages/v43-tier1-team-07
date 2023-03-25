@@ -1,15 +1,47 @@
-/* some css boilerplate (just like normalize but shorter), additions/subtractions welcome  */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
   }
-  button {
-    cursor: pointer;
+
+#grid-images{
+margin: 30% 0% 20% 0%;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+}
+
+.row{
+  display:flex;
+  flex-direction: row;
+}
+
+#column-2{
+width:100%
+}
+
+#image-2{
+height:77.5vh;
+}
+
+#image-3{
+  height: 90vh;
+}
+
+#image-4{
+  height: 65vh;
+}
+
+#image-5{
+  width:100%;
+  height:50vh;
+}
+
+@media screen and (min-width:300px) and (max-width:500px){
+
+  #grid-images{
+    width: 40%;
   }
-  ul  {
-    list-style-type: none;
-  }
-  a {
-    text-decoration: none;
-  }
+}
