@@ -3,13 +3,51 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  button {
+}
+
+button {
     cursor: pointer;
-  }
-  ul  {
+}
+
+ul {
     list-style-type: none;
-  }
-  a {
+}
+
+a {
     text-decoration: none;
-  }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #ececec;
+    margin-top: 2em;
+}
+
+footer img {
+    height: auto;
+    width: 20px;
+    padding-top: .2em;
+}
+
+.jake-gh,
+.julia-gh,
+.lucia-gh {
+    display: inline-block;
+    font-size: .7em;
+}
+
+footer span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .4em .5em 0 .5em;
+}
+
+.contributions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
