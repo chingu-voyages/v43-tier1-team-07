@@ -1,0 +1,15 @@
+/* some css boilerplate (just like normalize but shorter), additions/subtractions welcome  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  button {
+    cursor: pointer;
+  }
+  ul  {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
