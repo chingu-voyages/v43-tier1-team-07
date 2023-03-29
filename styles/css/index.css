@@ -39,9 +39,14 @@ height:77.5vh;
   height:50vh;
 }
 
+#background-image{
+    background: url(../images/crystal_mine.png)
+    no-repeat fixed 53%;
+    width:100%;
+    height:100vh;
+}
+
 @media screen and (min-width:300px) and (max-width:500px){
 
-  #grid-images{
-    width: 40%;
-  }
+  
 }
